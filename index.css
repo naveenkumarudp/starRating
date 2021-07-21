@@ -1,0 +1,73 @@
+.center {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+}
+
+.yellowStar::before {
+
+  content: "★";
+
+  font-size: 200%;
+
+  color: yellow;
+
+}
+
+.grayStar::before {
+
+  content: "☆";
+
+  font-size: 200%;
+
+  color: #dad2d2;
+
+}
+
+ 
+
+/* Emoji*/
+
+.best::before {
+
+  content: "😎";
+
+  font-size: 150%;
+
+}
+
+.good::before {
+
+  content: "😍";
+
+  font-size: 150%;
+
+}
+
+.neutral::before {
+
+  content: "😐";
+
+  font-size: 150%;
+
+}
+
+.bad::before {
+
+  content: "😟";
+
+  font-size: 150%;
+
+}
+
+.worst::before {
+
+  content: "😭";
+
+  font-size: 150%;
+
+}
