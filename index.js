@@ -9,11 +9,11 @@ const emojiContainer = document.getElementById("emojicontainer");
 
  
 
-document.addEventListener("DOMContentLoaded", function() {
+// document.addEventListener("DOMContentLoaded", function() {
 
-  starContainer.appendChild(addStarToContainer(starCount));
+//   starContainer.appendChild(addStarToContainer(starCount));
 
-});
+// });
 
  
 
@@ -196,3 +196,13 @@ function getEmojiForRating(index) {
  
 
 }
+
+ 
+
+function load(){
+
+    starContainer.appendChild(addStarToContainer(starCount));
+
+}
+
+load();
