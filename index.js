@@ -1,4 +1,3 @@
-(No title)
 const starCount = 5;
 
 let rating = 0;
