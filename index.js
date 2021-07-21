@@ -191,17 +191,10 @@ function getEmojiForRating(index) {
     return "best";
 
   }
-
- 
-
 }
 
- 
-
 function load(){
-
     starContainer.appendChild(addStarToContainer(starCount));
-
 }
 
 load();
